@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Minecraft';
+            src: url('fonts/minecraft.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+
+        @font-face {
+            font-family: 'Serif Alt';
+            src: url('fonts/serif.ttf') format('truetype');
+        }
+
+        body{
+            font-family: 'Minecraft', Arial, Verdana, sans-serif;
+        }
+
+        h1{
+            font-family: 'Serif Alt', serif;
+            font-size: 3em;
+        }
+
+        h2{
+            font-family: 'Serif Alt', serif;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Site Minecraft</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel similique consequuntur, est natus sequi officiis beatae error odio neque sapiente expedita dicta ea magnam, in labore! Animi laudantium nihil enim.</p>
+    <h2>Comandos Minecraft</h2>
+    <p>/gamerule keepInventory true</p>
+    <p>/gamemode 1</p>
+    <p>/time set day</p>
+</body>
+</html>
